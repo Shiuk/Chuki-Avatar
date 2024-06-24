@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: VRC Emotes
+    icon: {fileID: 2800000, guid: 011229dd2f6f5f64f8965a08d3434654, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 81ef47d0f844d2b488900f4bd707b3bf, type: 2}
+    subParameters: []
+    labels: []
+  - name: Crystal
+    icon: {fileID: 2800000, guid: f13d245d38ceb304cb5018e4864b4ede, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: deea2a07781b47240a2001052a7772ed, type: 2}
+    subParameters: []
+    labels: []
+  - name: Puppet Controls
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 5458378e68e3845429d5226180f32f15, type: 2}
+    subParameters: []
+    labels: []
+  - name: MMD Mode
+    icon: {fileID: 2800000, guid: 9a20b3a6641e1af4e95e058f361790cb, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 51b988316e5bef44e9c3f90caed1b8ce, type: 2}
+    subParameters: []
+    labels: []

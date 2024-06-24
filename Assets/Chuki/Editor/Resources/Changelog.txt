@@ -1,0 +1,378 @@
+<size=20><b>1.4.1</b></size>
+<b>==================</b>
+<b>Major Changes:</b>
+- Added Skye's Crystals: Back Left, Back Right, Back Lower.
+
+<b>Minor Changes:</b>
+<b>Mesh: Body</b>
+- Removed a few NGons on the Right Shoulder and Cheeks
+<b>Mesh: Crystals</b>
+- Renamed BlendShapes to allow for automation with custom crystal sets.
+- Split Left/Right Crystal BlendShapes for Body mods to allow for a cleaner look of hidden Crystals.
+<b>UV Map</b>
+- Adjusted wristband UVs to make more sense
+- Fixed left hand UVs located on top of the right hand in Asymmetrical Map UV0
+
+<b>Materials:</b>
+- Lowered Reflection Strength on EyesShine Material to fix "eye fog" in darker worlds.
+
+<b>Installer:</b>
+- Made Change Log easier to read.
+- Fixed Snout Size slider not working as intended. You can have smaller snoots now.
+- Added Audio Listender to Dummy Cameras to allow for Audio Link testing.
+- Body Mods sliders only affect crystals that are enabled, to allow for a cleaner look of hidden Crystals.
+
+
+<size=20><b>1.4</b></size>
+<b>==================</b>
+- Adjusted the auto view position again. Hopefully they are correctly aligned with your eyes this time. To apply, open up your chuki and go to the Height tab, your viewpoint will then be auto adjusted.
+- FX Controllers. Layer: Gesture R. Node: Idle. Added Animator Tracking Control for Eyelids. In case distant/late joiner user catches you mid expression that disables Eyelid tracking.
+- FX Controllers. Layer: MMD ArmatureFix. Node: ON. Added animation noBlink. on the off chance you toggle the armature fix while in the middle of blinking.
+
+<b>Model-Braid:</b>
+- Fixed UV1 Map
+
+<b>Model-Hair: Royals.</b>
+- Gave it more volume at the top of the head.
+
+<b>Model-Body:</b>
+- adjusted Wristband blendshape for thicker arms to help prevent clipping.
+- Adjusted eye shines to prevent clipping through.
+- Paw pads have been added
+
+<b>Crystals:</b>
+
+- Crotch blendshape has been added.
+- Crystal paw pads have been added.
+
+MMD Constraints
+- Fixed Right Ankle Contact Sender being in the wrong position.
+
+Installer:
+- Fixed hair material not displaying properly if user did not finish renaming their Chuki.
+- Changed Crystal Preset buttons into actual buttons.
+- Changed Crystal Preset label to Open/Close Crystal Presets List.
+- Toggling Ear Gauges/Glasses/Ear Fluff now works if you have an accessories material different than the body material.
+- Ear Rotation value no longer resets when relaunching the installer. If you are updating, it will reset one time, but should save the information afterwards. Be sure to click "Save and Close"!
+- Paw Pad Toggle has been added.
+- Added Credits
+- Added link to Roy's Patreon.
+
+PSD:
+- PSD for Symmetrical is now available and labeled.
+- Paw Pad Layer has been added
+- Eye Layers Darken and Shine Blur have been added
+
+
+
+<size=20><b>1.4 BETA Hotfix 3</b></size>
+<b>==================</b>
+- View Point positions have been adjusted to match standing heights for MMD and Twink stances.
+- View Point Position reverting back to default after the user restarts the installer has now been fixed.
+- Valve Index Gesture Controller reverting back to default after the user restarts the installer has now been fixed.
+- Expression Set FX Controller reverting back to default after the user restarts the installer has now been fixed.
+- Choosing an Expression Set now no longer requires the user to change Blink and Looking up Blendshapes.
+
+
+<size=20><b>1.4 BETA Hotfix 2</b></size>
+<b>==================</b>
+- Updated Installer UI
+- Fixed MMD Finger bones for a song.
+
+
+<size=20><b>1.4 BETA Hotfix 1</b></size>
+<b>==================</b>
+- Fixed toes radial menu not working
+
+
+<size=20><b>1.4 BETA</b></size>
+<b>==================</b>
+Major Changes:
+- I broke all your prefabs. Please forgive me uwu...but this gets you new features!
+- Twink is here. Only available for Aes.
+- Added smaller breasts by Skye.
+- MMD Armature Fix has been added. Unfortunatelly you can't toggle it on/off in vrchat. Details are in the Section for it.
+- Fixed Qiu viewposition bug
+- Added Crotch Blendshape
+- Fixed Ear Flop Animations not triggering as intended.
+- Removed Garbanzos to reach Blendshape triangle optimization limit.
+- Added Horn Size slider
+- Added UV Maps for Crystals
+- Ankle Limiter is now MMD mode. 
+-- Still limits the Ankle movement
+-- Disables blinking
+-- Disables Hand Gestures
+- Added Soft Shadow toggle in the MMD Mode menu. This helps fight "stepping" shadows in some lighting conditions.
+
+
+
+Minor Changes:
+- Glasses Physbones Scripts are now only created if glasses are enabled.
+- Changed Supine Toes drumming from Left Hand Open to Left Hand HandGun to prevent accidental usage.
+- Lowered restart time on Head Pat emote.
+- Increased size of Head Pat Contact Receiver.
+- Installer now supports addition of future Ponytails.
+- Braid UV Map has been flipped on the Y axis to allow for gradients.
+- Slowed down blink on Sleep Expression Set.
+- Fixed Closed Eyes Expressions having odd transitions
+- Closed Eyes had some expressions altered.
+- Fixed eye shine clipping through on Bratty Wink.
+- Angry Expression on Bashful is now...angrier.
+- Worry Expression on Bashful is now softer.
+- Tongue works now? Question mark?
+- Adjusted Tongue BlendShape so it doesn't clip with Everly muzzle.
+- Adjusted Crystals Blendshape to fix Legs + Everly Hips.
+- Increased Stiffness on Hair:Roux
+- Added Hair to Ear colliders for some Hairstyles.
+- Fixed Classic Lenses being in the wrong place on Qiu Chuki
+- Updated Energetic FX Controller
+ - Moved Squinty face to Fist L + R gesture.
+ - Changed Thumbs up L Gesture to Default_happy.
+- Moved Angry Vein further out from the body.
+- Altered eye shines for star and heart eyes to make the shapes clearer.
+- Increased MMD Ankle Limiter
+- Reversed MMD Viseme Radial Menu toggle to have English off by default.
+- Reworked FBX Arrangement to make things easier for clothing creators.
+- Separated Accessories from Crystals.
+- Combined Wristband, Shoulder Fluffs to Body Mesh.
+- Cleaned up Wristband to reach Blendshape triangle optimization limit.
+
+
+Installer Changes:
+- Updated Installer UI
+- Added Mirror toggle for hairstyle.
+- Breasts can now be toggled on and off as part of character modifications.
+- Added a Main Menu where you see your list of chukis, and create a new one.
+- Added Crystal Presets
+- Added Crystal Easy Color Sliders
+- Added option for Shoulder Fluff Size
+- Expression Sets now automatically apply the selected FX Controller. You still have to change the Blink layer though ;u;
+- Added some form of preview for the Expression Sets.
+- VRC Contact Sender/Receiver for Nose now adjusts automatically with Fade Modification sliders.
+- VRC Phys Bone Collider for Belly now adjusts automatically with Body Modification sliders.
+- VRC Phys Bone Collider for Breasts now adjusts automatically with Chest Modification sliders.
+- Removed instructions on how to modify scripts.
+- Updated animations to match new GameObject arrangements
+- Updated Credits
+
+<size=20><b>1.3.2 HotFix3</b></size>
+<b>==================</b>
+- Fixed Issue with Overnight Hairstyle
+- Corrections to Installer
+
+<size=20><b>1.3.2 HotFix2</b></size>
+<b>==================</b>
+- Fixed issue with Wislow Hairstyle
+- Corrections to Installer
+
+<size=20><b>1.3.2 HotFix1</b></size>
+<b>==================</b>
+- Corrections to Installer
+
+<size=20><b>1.3.2</b></size>
+<b>==================</b>
+Major Changes:
+- Major Optimization! Chukis with all options turned on on average now rank Medium on VRChat's Performance Ranking System as opposed to version 1.3.1 where they ranked Very Poor. Hairstyle and Physbones are now the only performance issue where before it was aspects of the entire avatar. Braid sometimes pushes the polygon count too high and gives you a Very Poor rating, will remedy in a future update.
+- Altered Original UV Map! You will need to update your Body Texture. This was to fix a Neck issue at distance.
+- Now with five fingers! Say hello in ASL.
+- Breasts are now available.
+- Belly jiggle physics.
+- Unity Avatar Installer, you no longer need to go in game to make your body edits. This allows for even more customization of your chuki.
+-- Easy convert from Aes to Qui
+-- Non destructive crystal selection, you can change at any time.
+-- Added Gauge Earrings by Biscuit
+-- Easy Height slider, adjusts your viewpoint for you
+-- Added Pecs blendshape
+-- Ear Fluff Position is now available
+-- Added more hair size sliders when available: thick strands, thin strands, bak of head, and braid size.
+-- You can now have your whiskers connected to your face.
+-- You can now position your whiskers between the cheeks and your nose.
+-- Added Everly Blendshapes by Kazzy
+-- Added Body Fuzz by Biscuit
+-- Added Brad's face Blendshapes by Biscuit
+-- Added Browridge
+- Added Brad's Hair by Biscuit
+- Updated all previous hairstyles to have more Bones
+- Added 8 new hairstyles: Amica, Overnight, Paradise, Peppermint, Rai, Roux, Royals, Trouble.
+- More MMD Visemes 44 Japanese + 21 English
+- Added MMD Ankle Limiter. This will turn on the Ankle to Hip sender/receiver, it will kick your foot out forward slightly to prevent it from clipping through your hips in some dances.
+- Added Glasses Option: Axtii frames with Ty Lenses
+- Quest/Toony lenses have been added to the Glasses
+- Wristband now comes in more flavors, Two spike styles, and smooth.
+- Mirror UV Map now available for higher resolution body textures, use UV1 on Poiyomi.
+- Atlased the Accessories for Optimization. Accessories are now part of the Body Material.
+- Added crawl Forward/Backward Animation cycle.
+- Added Toe bones
+- Added Toe Controller
+- Added Toe gestures while supine.
+- Added more Braid bones
+- Added Chest and Center Head Horn Crystal
+- Wislow's back crystals have been added.
+- Chabbot's "Tail Ring" crystal has been added.
+- Reworked the eyes to mimick Roy's art, Thanks to Zach for the idea.
+- Added Wink Star Expression, Lifting up Glasses Expression.
+- Added emissive eye shines/stars/hearts.
+- Whiskers animate with expressions.
+- Ears animate with expressions.
+- Added nose to nose expression.
+- Added headpat emote.
+- Added animated eye shines to sad expression.
+- Added ear colliders to prevent hair clipping through ears.
+- Added body colliders to prevent Braid and tail from clipping through the body while croucing/prone.
+- Added tail colliders to prevent Braid from clipping through tail while standing
+- Added new Expression Sets, Bashful, Beestung, Bratty, Energetic, and Sleepy.
+- Added Crystal Dormant animation, lowers the crystal's glitter effect and emission to distract less at night time.
+- Added Crystal AudioLink toggle.
+- Added Crystal animation when turning on your crystals, fades on from feet to head.
+- Added Meditating AFK animation.
+- Added more Whisker Bones so they don't behave as a big mass.
+- Fixed Weight painting around neck/head area, for better deformation.
+
+Minor Changes:
+- Change the look of V_OU blendshape.
+- Added more Blendshapes for expressions. 
+- Updated to Poiyomi 8.1
+- Cleaned up FX Controller, removed layers/parameters made unnecessary by the new installer.
+- Added Subsurface Scattering for the ears.
+- Moved ear bone so the collider makes more sense.
+- Fixed ear droop fighting the Sad Animation ear droop.
+- Ear Collider now follows the ear droop animation.
+- Adjusted lower lip on tongue out expression
+- Crystals are now slyghtly smoother to the body
+- Added MMD Mode toggle. Disables head pat, nose touch, and glasses shine emotes. Disables AFK Animations.
+- Added MMD Viseme toggle. Disabled English MMD Visemes to prevent "over acting".
+- Added Floor Collider toggle. in case you want your tail to clip through the floor.
+- Altered the Default Hand Animation.
+- Added VRChats sit emotes to expressions menu.
+- Fixed weight paiting on ear fluffs.
+- KWood has been implemented for easier installation.
+- Added Gesture Controller for Valve Index users.
+- Removed Tail colliders for arms.
+- Enabled Proximity darkening for the body material, thanks to Surge for the idea.
+
+Changes for Creators: 
+- Bug? In Unity, Gesture Manager triggers the Nose to Nose animation. You can disable it using the Radial Menu -> MMD -> Disable Interactibles.
+- Some FX Layers are numbered! Animator Layer Controls uses indexes instead of layer names. So keep these numbered layers in their assigned locations.
+- Moved Blush Decal from Decal 0 to Decal 3, to prevent blush from being overriden by custom Decals.
+- Fixed Blender Armature scales for easier exporting to Unity.
+- Fixed Distal Finger Bone weight painting for easier importing to Unity. You should no longer have to assign those bones in the Unity Rigger
+- Renamed Body blendshapes so it's easier to read Large/Slim
+- Fix Shoulder Fluff UVs
+- Made the body Mesh symmetrical
+- Eye shines/stars/hearts now have dedicated bones for easier animating.
+- Combined the Eyes_Transparent gameobject to the Body gameobject, to reduce the number of Skinned Mesh Renderers
+- Combined the Extras Accessories, Hair, and Crystals into one gameobject to reduce the number of skinned Mesh Renderers. To do this there is an FBX for each hairstyle.
+- Split the VRC Phys Bone Scripts into their own dedicated gameobjects for easier editing and animating.
+- Added Root bone to Left/Right Ear, they only need one Phys Bone Script now.
+- Added Root bone to Left/Right Whiskers, they only need one Phys Bone Script now.
+- In FBX, Renamed Crystals Material to _Crystals Material. Poiyomi handles animation of a gameobject with multiple materials based on hierarchy in the FBX. This allows us to turn AudioLink On/Off
+- Combined the Default/Narrow/Closed eyes Mesh into one. Differences are now driven by the FX Controller.
+- Combined Accessories and Hair with Crystals. While combining them with the Body mesh would have given one us one less Material slot used up. This caused performance issues by having a Skinned Mesh Renderer with too many polygons.
+- Added UDIM/UV Tile Discard options for Meshes, still testing this out. But Using UV Tile Discard along with Blendshapes to hide parts of a mesh provide a performance boost.
+- Included Additional clothing bones for easier clothing implementation since most users ended up with clothing that included these bones.
+
+
+<size=20><b>1.3.1.b</b></size>
+<b>==================</b>
+- Fixed Aes and Qui Narrow Templates using the wrong Blink blendshape in the prefabs
+- Added Contribution Credits to the information card
+
+<size=20><b>1.3 -> 1.3.1 PhysBone Update</b></size>
+<b>==================</b>
+
+Major changes:
+- PhysBone update! You don't need Dynamic Bones anymore.
+- Updated Poiyomi.
+- Added a tongue bone, now you can lick ice cream.
+- Roy DID fix the chode but only in the Closed Eyes body, transferred the fix to Default eyes and Narrow eyes.
+- Added Wink Expression. Use the handgun gesture on both hands to use the expression. Only available on Narrow and Default Eyes.
+- Added Heart Eyes Expression. Use the Victory Gesture on both hands to use the expression. Only available on Narrow and Default Eyes.
+- Added Star Eyes Expression. Use the Thumbs Up Gesture on both hands to use the expression. Only available on Narrow and Default Eyes.
+- Added eye shines and ear droop to the Sad Expression.
+- Added MMD Visemes. Please note that some visemes are still missing, more will be added in future updates uwu
+- Added a tail controller.
+- Added tail animations for Sad and Happy expressions.
+- Added new customization assets from a custom order:
+	- Wislow Hair
+	- Ear Tufts
+	- Axtii Glasses
+
+Minor changes:
+- Fixed Eyes Clipping through the Eyes Transparency. 
+- Added a new blush option
+- Added a braid collier (still a work in progress)
+- Added a floor collider to keep your tail from clipping through the floor.
+- Added Crystal On/Off Animations.
+- Fixed rogue vertex on the arm that was tied to a viseme
+- Fixed weight painting behind the knee
+- Altered UV map for Eye Shine to allow easier custom eye decals.
+- Fixed minor gap in Mane hairstyle between hair and head.
+- Fixed minor weight painting on fingertips.
+
+<size=20><b>1.2 -> 1.3 Changes</b></size>
+<b>==================</b>
+
+- Added new animations for hand signs when gestures are triggered, so the fist and open hand, etc. look nicer
+- Fixed an issue where the qiu chuki template had the incorrect head size in version 1.2
+- Fixed the mohawk hair weight painting again......
+- Fixed weight painting in the groin area so when legs are lifted they're not sporting a weird chode
+
+- Added new customization assets from a custom order
+	- Braid Hair (intended to be combined with other hairstyles)
+	- Braid Bow
+	- Closed Eyes (so you can use your drying pan!)
+
+
+<size=20><b>1.1 -> 1.2 Changes</b></size>
+<b>==================</b>
+
+- Fixed an issue where the mohawk hair had the tips weight painted incorrectly, causing weird stretching when the head was bent
+- Adjusted the pivot point of the hair bones
+- Added dynamic bones in shoulders for future shoulder fluff additions
+
+- Added new customization assets from a custom order
+	- Ty_Sway_Hair
+	- Ty_Glasses
+	- Ty_Shoulder_Fluff
+	- Ty_Wristband
+
+<size=20><b>1.0 -> 1.1 Changes</b></size>
+<b>==================</b>
+
+In-Game:
+
+- added a new right hand gesture (tongue out)
+
+
+Early Test Version -> 1.0 Changes
+<b>=================================</b>
+
+Blendshapes:
+
+- adjusted the visemes and longer snout blendshapes to fix an issue where the teeth would be visible through the lower lip when speaking using a model that had snout size set to 100% or close to
+
+Texture:
+
+- added option to colour the claws
+- added an Iris 2 layer for a nicer eye appearance
+- added outline to Iris 
+- adjusted the mouth outline
+- added a UV Layout and Text Labels layer in the resources
+- added guides for each hairstyle so that each hair strand can be coloured separately
+
+Unity: 
+
+- added Qiu Chuki prefab as a selectable form
+- added crystal effects to irises
+- added option to choose between 2 different eye types
+
+Model:
+
+- adjusted the geometry in the eye so the edge looks cleaner
+- adjusted the geometry of the mouth so there aren't visible gaps when the mouth is closed
+
+In-Game:
+
+- added gestures to the model
+- added Hair Size to Head Modification expressions menu
+- remade all of the body/head modifications to fix a glitch where setting any parameter to 100 would wrap back around to 0 visually if you didn't stop exactly at 100
